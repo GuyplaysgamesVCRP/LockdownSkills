@@ -1,0 +1,302 @@
+module Base
+{
+    item BookMechanic1
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMechanic2
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMechanic3
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMechanic4
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMechanic5
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMetalWelding1
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMetalWelding2
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMetalWelding3
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMetalWelding4
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookMetalWelding5
+    {
+        Icon = Book_Generic,
+        IconColorMask = Book_Generic_Mask,
+        SkillTrained = Blacksmith2,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorRed = 58,
+        ColorGreen = 69,
+        ColorBlue = 72,
+    }
+
+    item BookBlacksmith1
+    {
+        SkillTrained = Blacksmith2,
+    }
+
+    item BookBlacksmith2
+    {
+        SkillTrained = Blacksmith2,
+    }
+
+    item BookBlacksmith3
+    {
+        SkillTrained = Blacksmith2,
+    }
+
+    item BookBlacksmith4
+    {
+        SkillTrained = Blacksmith2,
+    }
+
+    item BookBlacksmith5
+    {
+        SkillTrained = Blacksmith2,
+    }
+
+    item BookPottery1
+    {
+        SkillTrained = Artisanry,
+    }
+
+    item BookPottery2
+    {
+        SkillTrained = Artisanry,
+    }
+
+    item BookPottery3
+    {
+        SkillTrained = Artisanry,
+    }
+
+    item BookPottery4
+    {
+        SkillTrained = Artisanry,
+    }
+
+    item BookPottery5
+    {
+        SkillTrained = Artisanry,
+    }
+
+    item BookGlassmaking1
+    {
+        SkillTrained = Artisanry,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorBlue = 67,
+        ColorGreen = 104,
+        ColorRed = 203,
+    }
+
+    item BookGlassmaking2
+    {
+        SkillTrained = Artisanry,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorBlue = 67,
+        ColorGreen = 104,
+        ColorRed = 203,
+    }
+
+    item BookGlassmaking3
+    {
+        SkillTrained = Artisanry,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorBlue = 67,
+        ColorGreen = 104,
+        ColorRed = 203,
+    }
+
+    item BookGlassmaking4
+    {
+        SkillTrained = Artisanry,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorBlue = 67,
+        ColorGreen = 104,
+        ColorRed = 203,
+    }
+
+    item BookGlassmaking5
+    {
+        SkillTrained = Artisanry,
+        StaticModel = BookOpenTINT,
+        WorldStaticModel = BookClosedTINT,
+        ColorBlue = 67,
+        ColorGreen = 104,
+        ColorRed = 203,
+    }
+
+    item BookTracking1
+    {
+        Icon = Book4,
+        SkillTrained = Trapping2,
+        StaticModel = BookYellowBrown,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item BookTracking2
+    {
+        Icon = Book4,
+        SkillTrained = Trapping2,
+        StaticModel = BookYellowBrown,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item BookTracking3
+    {
+        Icon = Book4,
+        SkillTrained = Trapping2,
+        StaticModel = BookYellowBrown,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item BookTracking4
+    {
+        Icon = Book4,
+        SkillTrained = Trapping2,
+        StaticModel = BookYellowBrown,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item BookTracking5
+    {
+        Icon = Book4,
+        SkillTrained = Trapping2,
+        StaticModel = BookYellowBrown,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item BookButchering1
+    {
+        Icon = Book9,
+        SkillTrained = Cooking,
+        StaticModel = BookDarkCyan,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+
+    item BookButchering2
+    {
+        Icon = Book9,
+        SkillTrained = Cooking,
+        StaticModel = BookDarkCyan,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+
+    item BookButchering3
+    {
+        Icon = Book9,
+        SkillTrained = Cooking,
+        StaticModel = BookDarkCyan,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+
+    item BookButchering4
+    {
+        Icon = Book9,
+        SkillTrained = Cooking,
+        StaticModel = BookDarkCyan,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+
+    item BookButchering5
+    {
+        Icon = Book9,
+        SkillTrained = Cooking,
+        StaticModel = BookDarkCyan,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "IGUI_perks_Body": "Body",
+    "IGUI_perks_PhysicalCategory": "Agility",
+    "IGUI_perks_Occupation": "Occupation",
+    "IGUI_perks_CombatMelee": "Melee",
+    "IGUI_perks_CombatFirearms": "Ranged",
+    "IGUI_perks_Depreciated": "Depreciated (Staff-Visible)",
+    "IGUI_perks_Artisanry": "Artisanry",
+    "IGUI_perks_Artisanry_Description": "Allows the creation of artisan goods such as glass, pottery, and candles.",
+    "IGUI_perks_Social": "Social",
+    "IGUI_perks_Social_Description": "Allows the boosting of others' morales through improvisations.",
+    "IGUI_perks_Ingenuity": "Ingenuity",
+    "IGUI_perks_Ingenuity_Description": "Furthers reading speed and enables advanced research of crafting skills.",
+
+    "IGUI_perks_MetalWelding": "Blacksmithing",
+    "IGUI_perks_Mechanics": "Blacksmithing",
+
+    "IGUI_perks_Glassmaking": "Artisanry",
+    "IGUI_perks_Pottery": "Artisanry",
+
+    "IGUI_perks_Tracking": "Trapping",
+
+    "IGUI_perks_Lightfooted": "Sneaking"
+}

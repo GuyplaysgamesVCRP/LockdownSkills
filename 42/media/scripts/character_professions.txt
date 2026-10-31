@@ -1,0 +1,130 @@
+module Lockdown
+{
+    character_profession_definition lockdown:guardsman
+    {
+        CharacterProfession = lockdown:guardsman,
+        Cost = 4,
+        UIName = UI_prof_lockdown_guardsman,
+        UIDescription = UI_profdesc_lockdown_guardsman,
+        IconPathName = occ_guardsman,
+        XPBoosts = Strength=2;Sprinting=2;Nimble=2,
+    }
+
+    character_profession_definition lockdown:student
+    {
+        CharacterProfession = lockdown:student,
+        Cost = 16,
+        UIName = UI_prof_lockdown_student,
+        UIDescription = UI_profdesc_lockdown_student,
+        IconPathName = occ_student,
+    }
+
+    character_profession_definition lockdown:ranger
+    {
+        CharacterProfession = lockdown:ranger,
+        Cost = 4,
+        UIName = UI_prof_lockdown_ranger,
+        UIDescription = UI_profdesc_lockdown_ranger,
+        IconPathName = occ_ranger,
+        XPBoosts = Fitness=1;Sprinting=2;Reloading=2,
+    }
+
+    character_profession_definition lockdown:carpenter
+    {
+        CharacterProfession = lockdown:carpenter,
+        Cost = 0,
+        UIName = UI_prof_lockdown_carpenter,
+        UIDescription = UI_profdesc_lockdown_carpenter,
+        IconPathName = occ_carpenter,
+        XPBoosts = Woodwork=4;Carving=4;Axe=1;SmallBlunt=2,
+        GrantedRecipes = MakeBrakeWeapon;CanReinforceLongWeapon;CanReinforceShortWeapon;CanReinforceWeapon;MakeGardenForkHeadWeapon;RailspikeBaseballBat;MakeRailspikeCudgel;MakeRailspikeLongHandle;MakeRakeHeadWeapon;MakeSawPlank;MakeSawbladeCudgel;MakeSawbladeLongHandle;MakeSawbladePlank;MakeSawbladeTableLeg;MakeSawbladeWeapon;SheetMetalWeapon;MakeSpadeHeadCudgel;MakeAdvancedFramepackFrame;MakeAdvancedLargeFramepackFrame,
+    }
+
+    character_profession_definition lockdown:mason
+    {
+        CharacterProfession = lockdown:mason,
+        Cost = 0,
+        UIName = UI_prof_lockdown_mason,
+        UIDescription = UI_profdesc_lockdown_mason,
+        IconPathName = occ_mason,
+        XPBoosts = Masonry=4;FlintKnapping=4;Axe=2;SmallBlunt=1,
+        GrantedRecipes = MakeBrakeWeapon;CanReinforceLongWeapon;CanReinforceShortWeapon;CanReinforceWeapon;MakeGardenForkHeadWeapon;RailspikeBaseballBat;MakeRailspikeCudgel;MakeRailspikeLongHandle;MakeRakeHeadWeapon;MakeSawPlank;MakeSawbladeCudgel;MakeSawbladeLongHandle;MakeSawbladePlank;MakeSawbladeTableLeg;MakeSawbladeWeapon;SheetMetalWeapon;MakeSpadeHeadCudgel;MakeAdvancedFramepackFrame;MakeAdvancedLargeFramepackFrame,
+    }
+
+    character_profession_definition lockdown:blacksmith
+    {
+        CharacterProfession = lockdown:blacksmith,
+        Cost = 2,
+        UIName = UI_prof_lockdown_blacksmith,
+        UIDescription = UI_profdesc_lockdown_blacksmith,
+        IconPathName = occ_blacksmith,
+        XPBoosts = Blacksmith2=4;SmallBlunt=1;Blunt=2;Maintenance=3,
+        GrantedRecipes = BarbedWireWeapon;Advanced_Forge;Blast_Furnace;Charcoal_Burner_MetalDrum;Charcoal_Pit;Dome_Kiln;Forge;Smelting_Furnace;Forge_Primitive_Forge;Primitive_Furnace;Forge_Baking_Pan;Forge_Baking_Tray;Forge_Bucket;Forge_Ball_Peen_Hammer_Head;Forge_Clawhammer_Head;Forge_Cooking_Pot;Forge_Corkscrew;Forge_Crowbar;Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_Door_Knob;Forge_Fine_Butter_Knives;Forge_Fine_Forks;Forge_Fine_Spoons;Forge_Fishing_Hooks;Forge_Forceps;Forge_Forks;Forge_Frying_Pan;Forge_Garden_Hoe_Head;Forge_Gardening_Trowel;Forge_Hand_Scythe_Head;Forge_Hinge;Forge_Hunting_Knife_Blade;Forge_Kettle;Forge_Kitchen_Knife_Blade;Forge_Large_Knife_Blade;Forge_Machete_Blade;Forge_Masons_Chisel;Forge_Masons_Trowel;Forge_Meat_Cleaver_Blade;Forge_Metalworking_Chisel;Forge_Metalworking_Pliers;Forge_Metalworking_Punch;Forge_File;Forge_Drill;Forge_Nails;Forge_Needle;Forge_Pick_Axe_Head;Forge_Roasting_Pan;Forge_Saucepan;Forge_Saw;Forge_Scissors;Forge_Scythe_Head;Forge_Spade_Head;Forge_Sheep_Shears;Forge_Sledgehammer_Head;Forge_Small_Knife;Forge_Small_Steel_Sheet;Forge_Smithing_Hammer_Head;Forge_Spoons;Forge_Steel_Sheet;Forge_Straight_Razor;Forge_Sword_Blade;Forge_Tongs;Forge_Tweezers;MakeCrudeWhetstone;Forge_Heading_Tool;Forge_Draw_Plate;ForgeMaceHead;MakeSpikedClub;ForgeSpearHead;ForgeLongSpearHead;Forge_Wood_Axe_Head;Forge_Old_Axe_Head;Forge_Hand_Axe_Head;Forge_Fleshing_Tool;Forge_Cup;Forge_Buckle;Forge_Lantern;Forge_Carpentry_Chisel;Forge_Wrench,
+    }
+
+    character_profession_definition lockdown:clothier
+    {
+        CharacterProfession = lockdown:clothier,
+        Cost = 5,
+        UIName = UI_prof_lockdown_clothier,
+        UIDescription = UI_profdesc_lockdown_clothier,
+        IconPathName = occ_clothier,
+        XPBoosts = Tailoring=4;SmallBlade=1,
+        GrantedRecipes = KnitBalaclavaFace;KnitBalaclavaFull;KnitBeany;KnitDoily;KnitLegwarmers;KnitScarf;KnitSocks;KnitSweaterVest;KnitWoolyHat;SewCrudeLeatherBackpack;SewHideBoots;SewHidePants;SewHideSleepingBag;SewHideCoat;SewHideHoodie;SewHideJacket;SewHideRobe;SewHideHat;MakeTarpChestRig;AssembleSmallFramepack;AssembleLargeFramepack;AssembleAdvancedFramepack;AssembleAdvancedLargeFramepack;MakeGarbageBagTankTop;MakeTarpTankTop;MakeGarbageBagDress;MakeTarpDress;WeaveTwineShoes;SewLeatherCodpiece;SewLeatherGorget;SewHolster;SewHolsterDouble;MakeWesternBoots;SewBelt;SewLeatherToolRoll;SewSandals;SewLeatherGloves;SewLeatherWaterBag;SewBandolier;SewShellsBandolier;SewHideWallet;SewFurredHideCoat;SewFurredHideJacket;SewLeatherGaiter;SewLeatherVambrace;SewElbowPads;SewKneePads;SewLeatherPants;SewHideFannyBag;SewClothSatchel;SewDressKnees;SewLongjohns;SewShirt;SewSkirtKnees;SewTrousers;SewDressLong;SewLongjohnsBottom;SewShirtSleeveless;SewSkirtLong,
+    }
+
+    character_profession_definition lockdown:fisherman
+    {
+        CharacterProfession = lockdown:fisherman,
+        Cost = 2,
+        UIName = UI_prof_lockdown_fisherman,
+        UIDescription = UI_profdesc_lockdown_fisherman,
+        IconPathName = occ_fisherman,
+        XPBoosts = Fishing=4;Spear=2;Carving=2;Cooking=1;PlantScavenging=1,
+        GrantedRecipes = MakeFishingRod;FixFishingRod;GetWireBack;MakeFishingNet;MakeChum,
+    }
+
+    character_profession_definition lockdown:farmer
+    {
+        CharacterProfession = lockdown:farmer,
+        Cost = 0,
+        UIName = UI_prof_lockdown_farmer,
+        UIDescription = UI_profdesc_lockdown_farmer,
+        IconPathName = occ_farmer,
+        XPBoosts = Farming=4;Spear=1;Strength=1;PlantScavenging=2,
+        GrantedRecipes = MakeMildewCure;MakeFliesCureFromCigarettes;MakeFliesCureFromLooseTobacco;MakeFliesCureFromChewingTobacco;MakeAphidsCure;MakeScarecrow;MakeBarbedWire;base:carrot growing season;base:broccoli growing season;base:radish growing season;base:strawberry growing season;base:tomato growing season;base:potato growing season;base:cabbage growing season;base:corn growing season;base:kale growing season;base:sweet potato growing season;base:green pea growing season;base:onion growing season;base:garlic growing season;base:soybean growing season;base:wheat growing season;base:basil growing season;base:chives growing season;base:cilantro growing season;base:oregano growing season;base:parsley growing season;base:sage growing season;base:rosemary growing season;base:thyme growing season;base:barley growing season;base:flax growing season;base:hops growing season;base:rye growing season;base:sugar beet growing season;base:tobacco growing season;base:bell pepper growing season;base:cauliflower growing season;base:cucumber growing season;base:habanero growing season;base:jalapeno growing season;base:leek growing season;base:lettuce growing season;base:pumpkin growing season;base:spinach growing season;base:sunflower growing season;base:turnip growing season;base:watermelon growing season;base:zucchini growing season;base:chamomile growing season;base:lemongrass growing season;base:marigold growing season;base:mint growing season;base:rose growing season;base:poppy growing season;base:hemp growing season;base:lavender growing season;base:comfrey growing season;base:common mallow growing season;base:broadleaf plantain growing season;base:black sage growing season;base:wild garlic growing season;MakeJar,
+    }
+
+    character_profession_definition lockdown:artisan
+    {
+        CharacterProfession = lockdown:artisan,
+        Cost = 2,
+        UIName = UI_prof_lockdown_artisan,
+        UIDescription = UI_profdesc_lockdown_artisan,
+        IconPathName = occ_artisan,
+        XPBoosts = Artisanry=4;Tailoring=1;Carving=1;FlintKnapping=1;Woodwork=1,
+        GrantedRecipes = BarbedWireWeapon;BoltBat;MakeBrakeWeapon;MakeBucketMaul;CanReinforceLongWeapon;CanReinforceShortWeapon;CanReinforceWeapon;MakeGardenForkHeadWeapon;MakeKettleMaul;RailspikeBaseballBat;MakeRailspikeCudgel;MakeRailspikeIronPipe;MakeRailspikeLongHandle;MakeRailspikeWeapon;MakeRakeHeadWeapon;MakeSawPlank;MakeSawbladeCudgel;MakeSawbladeLongHandle;MakeSawbladePlank;MakeSawbladeTableLeg;MakeSawbladeWeapon;SheetMetalWeapon;MakeSpadeHeadCudgel;MakeScrewdriver,
+    }
+
+    character_profession_definition lockdown:cook
+    {
+        CharacterProfession = lockdown:cook,
+        Cost = 2,
+        UIName = UI_prof_lockdown_cook,
+        UIDescription = UI_profdesc_lockdown_cook,
+        IconPathName = occ_cook,
+        XPBoosts = Cooking=4;SmallBlade=3;PlantScavenging=1;Trapping2=1,
+        GrantedRecipes = MakeCakeBatter;MakePieDough;MakeBreadDough;MakeBaguetteDough;MakeBiscuits;MakeChocolateCookieDough;MakeChocolateChipCookieDough;MakeOatmealCookieDough;MakeShortbreadCookieDough;MakeSugarCookieDough;MakePizza;MakeFriedOnionRings;MakeFriedShrimp;MakeSushi;MakeOnigiri;MakeMaki;MakeCabbageRolls;PrepareMuffins;MakeGuacamole;MakeJar,
+    }
+
+    character_profession_definition lockdown:rancher
+    {
+        CharacterProfession = lockdown:rancher,
+        Cost = -1,
+        UIName = UI_prof_lockdown_rancher,
+        UIDescription = UI_profdesc_lockdown_rancher,
+        IconPathName = occ_rancher,
+        XPBoosts = Husbandry=4;Fitness=1;Aiming=1;Axe=1;PlantScavenging=3;Trapping2=2,
+        GrantedRecipes = MakeBarbedWire;MakeStickTrap;MakeSnareTrap;MakeWoodenBoxTrap;MakeTrapBox;MakeCageTrap,
+    }
+}

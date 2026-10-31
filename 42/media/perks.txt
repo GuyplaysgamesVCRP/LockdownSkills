@@ -1,0 +1,103 @@
+VERSION = 1,
+
+perk Artisanry
+{
+    parent = Crafting,
+    translation = Artisanry,
+    passive = false,
+	xp1 = 50,
+	xp2 = 100,
+	xp3 = 200,
+	xp4 = 500,
+	xp5 = 1000,
+	xp6 = 2000,
+	xp7 = 3000,
+	xp8 = 4000,
+	xp9 = 5000,
+	xp10 = 6000,
+}
+
+perk Body
+{
+	parent = None,
+	translation = Body,
+	passive = true,
+	xp1 = 0,
+	xp2 = 0,
+	xp3 = 0,
+	xp4 = 0,
+	xp5 = 0,
+	xp6 = 0,
+	xp7 = 0,
+	xp8 = 0,
+	xp9 = 0,
+	xp10 = 0,
+}
+
+perk Depreciated
+{
+	parent = None,
+	translation = Depreciated,
+	passive = false,
+	xp1 = 0,
+	xp2 = 0,
+	xp3 = 0,
+	xp4 = 0,
+	xp5 = 0,
+	xp6 = 0,
+	xp7 = 0,
+	xp8 = 0,
+	xp9 = 0,
+	xp10 = 0,
+}
+
+perk Sneak2
+{
+    parent = PhysicalCategory,
+    translation = Sneaking,
+    passive = false,
+	xp1 = 50,
+	xp2 = 100,
+	xp3 = 200,
+	xp4 = 500,
+	xp5 = 1000,
+	xp6 = 2000,
+	xp7 = 3000,
+	xp8 = 4000,
+	xp9 = 5000,
+	xp10 = 6000,
+}
+
+perk Blacksmith2
+{
+    parent = Crafting,
+    translation = Blacksmith,
+    passive = false,
+	xp1 = 50,
+	xp2 = 100,
+	xp3 = 200,
+	xp4 = 500,
+	xp5 = 1000,
+	xp6 = 2000,
+	xp7 = 3000,
+	xp8 = 4000,
+	xp9 = 5000,
+	xp10 = 6000,
+}
+
+perk Trapping2
+{
+    parent = Survivalist,
+    translation = Trapping,
+    passive = false,
+	xp1 = 50,
+	xp2 = 100,
+	xp3 = 200,
+	xp4 = 500,
+	xp5 = 1000,
+	xp6 = 2000,
+	xp7 = 3000,
+	xp8 = 4000,
+	xp9 = 5000,
+	xp10 = 6000,
+}

@@ -1,0 +1,23 @@
+module Base
+{
+    craftRecipe craftCandles
+    {
+        timedAction = MixingBowl,
+        time = 120,
+        OnCreate = LockdownOnCreate.craftCandles,
+        Tooltip = Tooltip_Recipe_ScalesWithArtisanry,
+        category = Artisanry,
+        Tags = AnySurfaceCraft;Artisanry,
+        xpAward = Artisanry:3,
+        inputs
+        {
+            item 1 tags[base:scissors] mode:keep flags[IsNotDull;MayDegradeLight],
+            item 2 tags[base:thread],
+            item 6 tags[base:bakingfat],
+        }
+        outputs
+        {
+            item 4 Base.Candle,
+        }
+    }
+}

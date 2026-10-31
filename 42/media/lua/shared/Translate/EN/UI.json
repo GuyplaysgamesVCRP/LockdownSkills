@@ -1,0 +1,50 @@
+{
+	"UI_prof_lockdown_guardsman": "Guard",
+	"UI_profdesc_lockdown_guardsman": "Stop! You've violated the law.",
+	"UI_prof_lockdown_student": "Student",
+	"UI_profdesc_lockdown_student": "Basically unemployed.",
+	"UI_prof_lockdown_ranger": "Ranger",
+	"UI_profdesc_lockdown_ranger": "Attacks from a distance.",
+	"UI_prof_lockdown_blacksmith": "Blacksmith",
+	"UI_profdesc_lockdown_blacksmith": "Works with metal.",
+	"UI_prof_lockdown_carpenter": "Carpenter",
+	"UI_profdesc_lockdown_carpenter": "Works with wood.",
+	"UI_prof_lockdown_mason": "Mason",
+	"UI_profdesc_lockdown_mason": "Lays bricks and stuff.",
+	"UI_prof_lockdown_fisherman": "Fisherman",
+	"UI_profdesc_lockdown_fisherman": "Gone fishing.",
+	"UI_prof_lockdown_farmer": "Farmer",
+	"UI_profdesc_lockdown_farmer": "Someone needs to grow the potatoes.",
+	"UI_prof_lockdown_rancher": "Rancher",
+	"UI_profdesc_lockdown_rancher": "Works with animals.",
+	"UI_prof_lockdown_cook": "Cook",
+	"UI_profdesc_lockdown_cook": "It'll be ready, when it's ready!",
+	"UI_prof_lockdown_clothier": "Clothier",
+	"UI_profdesc_lockdown_clothier": "Sometimes guards dungeons as a side gig.",
+	"UI_prof_lockdown_artisan": "Artisan",
+	"UI_profdesc_lockdown_artisan": "Makes pottery, glass, and candles.",
+
+    "UI_trait_lockdown_guard": "Guard",
+    "UI_traitdesc_lockdown_guard": "Guard trait",
+    "UI_trait_lockdown_survivor": "Survivor",
+    "UI_traitdesc_lockdown_survivor": "Survivor trait",
+
+    "UI_trait_lockdown_guard_longblade": "(Guard) Sword Proficiency",
+    "UI_traitdesc_lockdown_guard_longblade": "Trained with swords.",
+    "UI_trait_lockdown_guard_spear": "(Guard) Pike Proficiency",
+    "UI_traitdesc_lockdown_guard_spear": "Trained with spears.",
+
+    "UI_trait_lockdown_ranger_firearms": "(Ranger) Firearms Proficiency",
+    "UI_traitdesc_lockdown_ranger_firearms": "Trained with guns.",
+    "UI_trait_lockdown_ranger_archer": "(Ranger) Archery Proficiency",
+    "UI_traitdesc_lockdown_ranger_archer": "Trained with bows.",
+
+    "UI_trait_lockdown_cook_keenbutcher": "(Cook) Keen Butcher",
+    "UI_traitdesc_lockdown_cook_keenbutcher": "Your Butchering level is equal to the sum of your Cooking and Short Blade levels.<br>(INSTEAD OF: Your Butchering level is equal to either your Cooking or Short Blade level, depending on which is higher.) ",
+    "UI_trait_lockdown_fisherman_filleter": "(Fisherman) Filleter",
+    "UI_traitdesc_lockdown_fisherman_filleter": "Your Butchering level is equal to either your Cooking, Short Blade, or Fishing level, depending on which is higher.<br>(INSTEAD OF: Your Butchering level is equal to either your Cooking or Short Blade level, depending on which is higher.)",
+
+    "UI_trait_handy": "(Carpenter&Mason) Handy",
+    "UI_trait_nutritionist": "(Cook) Nutritionist"
+
+}

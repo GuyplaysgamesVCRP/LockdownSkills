@@ -1,0 +1,114 @@
+module Lockdown
+{
+    character_trait_definition lockdown:guard_longblade
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:guard_longblade,
+        Cost = 2,
+        UIName = UI_trait_lockdown_guard_longblade,
+        UIDescription = UI_traitdesc_lockdown_guard_longblade,
+        Texture = media/ui/Traits/trait_guard_longblade.png,
+        XPBoosts = LongBlade=3,
+        MutuallyExclusiveTraits = lockdown:guard_spear,
+    }
+
+    character_trait_definition lockdown:guard_spear
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:guard_spear,
+        Cost = 2,
+        UIName = UI_trait_lockdown_guard_spear,
+        UIDescription = UI_traitdesc_lockdown_guard_spear,
+        Texture = media/ui/Traits/trait_guard_spear.png,
+        XPBoosts = Spear=3,
+        MutuallyExclusiveTraits = lockdown:guard_longblade,
+    }
+
+    character_trait_definition lockdown:ranger_firearms
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:ranger_firearms,
+        Cost = 2,
+        UIName = UI_trait_lockdown_ranger_firearms,
+        UIDescription = UI_traitdesc_lockdown_ranger_firearms,
+        Texture = media/ui/Traits/trait_ranger_firearms.png,
+        XPBoosts = Aiming=3,
+        MutuallyExclusiveTraits = lockdown:ranger_archer,
+    }
+
+    character_trait_definition lockdown:ranger_archer
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:ranger_archer,
+        Cost = 6,
+        UIName = UI_trait_lockdown_ranger_archer,
+        UIDescription = UI_traitdesc_lockdown_ranger_archer,
+        Texture = media/ui/Traits/trait_ranger_archer.png,
+        XPBoosts = Archery=4,
+        MutuallyExclusiveTraits = lockdown:ranger_firearms,
+    }
+
+    character_trait_definition lockdown:fisherman_filleter
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:fisherman_filleter,
+        Cost = 1,
+        UIName = UI_trait_lockdown_fisherman_filleter,
+        UIDescription = UI_traitdesc_lockdown_fisherman_filleter,
+        Texture = media/ui/Traits/trait_fisherman_filleter.png,
+        XPBoosts = SmallBlade=1,
+    }
+
+    character_trait_definition lockdown:cook_keenbutcher
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:cook_keenbutcher,
+        Cost = 1,
+        UIName = UI_trait_lockdown_cook_keenbutcher,
+        UIDescription = UI_traitdesc_lockdown_cook_keenbutcher,
+        Texture = media/ui/Traits/trait_cook_keenbutcher.png,
+        XPBoosts = SmallBlade=1,
+    }
+
+    character_trait_definition lockdown:artisan
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:artisan,
+        Cost = 2,
+        UIName = UI_trait_Artisan,
+        UIDescription = UI_trait_ArtisanDesc,
+        Texture = media/ui/Traits/trait_artisan.png,
+        XPBoosts = Artisanry=2, 
+        GrantedRecipes = MakeGlassJar;MakeGlassBottle;MakeDrinkingGlass;MakeWineGlass;MakeGlassPanel;MakeLanternGlass,
+    }
+
+    character_trait_definition lockdown:hiker
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:hiker,
+        Cost = 5,
+        UIName = UI_trait_Hiker,
+        XPBoosts = PlantScavenging=1;Trapping2=1,
+        GrantedRecipes = MakeStickTrap;MakeSnareTrap;MakeWoodenBoxTrap,
+    }
+
+    character_trait_definition lockdown:cook
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = lockdown:cook,
+        Cost = 3,
+        UIName = UI_trait_Cook,
+        UIDescription = UI_trait_CookDesc,
+        XPBoosts = Cooking=2,
+        GrantedRecipes = MakeCakeBatter;MakePieDough;MakeBreadDough;MakeBaguetteDough;MakeBiscuits;MakeChocolateChipCookieDough;MakeOatmealCookieDough;MakeShortbreadCookieDough;MakeSugarCookieDough;MakePizza;MakeFriedOnionRings;MakeFriedShrimp;MakeCabbageRolls;MakeJar;MakeGuacamole,
+    }
+}
